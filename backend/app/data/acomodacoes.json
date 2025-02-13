@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "nome": "Apartamento Jurerê",
+        "imagem": "https://placehold.co/400x300",
+        "preco_noite": 350,
+        "localizacao": "Florianópolis/SC"
+    },
+    {
+        "id": 2,
+        "nome": "Apartamento Copacabana",
+        "imagem": "https://placehold.co/400x300",
+        "preco_noite": 399.99,
+        "localizacao": "Rio de Janeiro/RJ"
+    }
+]
