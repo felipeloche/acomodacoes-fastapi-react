@@ -4,13 +4,15 @@
         "nome": "Apartamento Jurerê",
         "imagem": "https://placehold.co/400x300",
         "preco_noite": 350,
-        "localizacao": "Florianópolis/SC"
+        "cidade": "Florianópolis",
+        "estado": "Santa Catarina"
     },
     {
         "id": 2,
         "nome": "Apartamento Copacabana",
         "imagem": "https://placehold.co/400x300",
         "preco_noite": 399.99,
-        "localizacao": "Rio de Janeiro/RJ"
+        "cidade": "Salvador",
+        "estado": "Bahia"
     }
 ]
