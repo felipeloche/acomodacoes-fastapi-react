@@ -3,6 +3,7 @@ from pydantic import BaseModel
 from typing import List
 from fastapi import HTTPException
 from unidecode import unidecode
+from fastapi.middleware.cors import CORSMiddleware
 import json
 
 #Classe acomodação com os atributos fornecidos no enunciado
@@ -16,6 +17,15 @@ class Acomodacao(BaseModel):
     
 #Iniciação da instância FastAPI
 app = FastAPI() 
+
+#CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"], #Alterar com a origem correta do React no futuro
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"]
+)
 
 #Requisição Get para listar todas as acomodações ou filtrar por cidade
 @app.get("/acomodacoes/", response_model=List[Acomodacao]) #Uso do response model para garantir a tipagem de lista para os dados
