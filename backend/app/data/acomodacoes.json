@@ -1,18 +1,162 @@
 [
     {
         "id": 1,
-        "nome": "Apartamento Jurerê",
+        "nome": "Apartamento Centro",
         "imagem": "https://placehold.co/400x300",
-        "preco_noite": 350,
+        "preco_noite": 696.62,
         "cidade": "Florianópolis",
         "estado": "Santa Catarina"
     },
     {
         "id": 2,
-        "nome": "Apartamento Copacabana",
+        "nome": "Apartamento Kobrasol",
         "imagem": "https://placehold.co/400x300",
-        "preco_noite": 399.99,
-        "cidade": "Salvador",
-        "estado": "Bahia"
+        "preco_noite": 556.99,
+        "cidade": "São José",
+        "estado": "Santa Catarina"
+    },
+    {
+        "id": 3,
+        "nome": "Apartamento Campeche",
+        "imagem": "https://placehold.co/400x300",
+        "preco_noite": 223.8,
+        "cidade": "Florianópolis",
+        "estado": "Santa Catarina"
+    },
+    {
+        "id": 4,
+        "nome": "Apartamento Pedra Branca",
+        "imagem": "https://placehold.co/400x300",
+        "preco_noite": 439.86,
+        "cidade": "Palhoça",
+        "estado": "Santa Catarina"
+    },
+    {
+        "id": 5,
+        "nome": "Apartamento Canasvieiras",
+        "imagem": "https://placehold.co/400x300",
+        "preco_noite": 386.11,
+        "cidade": "Florianópolis",
+        "estado": "Santa Catarina"
+    },
+    {
+        "id": 6,
+        "nome": "Apartamento Centro",
+        "imagem": "https://placehold.co/400x300",
+        "preco_noite": 242.54,
+        "cidade": "São José",
+        "estado": "Santa Catarina"
+    },
+    {
+        "id": 7,
+        "nome": "Apartamento Jurerê",
+        "imagem": "https://placehold.co/400x300",
+        "preco_noite": 639.11,
+        "cidade": "Florianópolis",
+        "estado": "Santa Catarina"
+    },
+    {
+        "id": 8,
+        "nome": "Apartamento Pagani",
+        "imagem": "https://placehold.co/400x300",
+        "preco_noite": 597.35,
+        "cidade": "Palhoça",
+        "estado": "Santa Catarina"
+    },
+    {
+        "id": 9,
+        "nome": "Apartamento Batel",
+        "imagem": "https://placehold.co/400x300",
+        "preco_noite": 443.25,
+        "cidade": "Curitiba",
+        "estado": "Paraná"
+    },
+    {
+        "id": 10,
+        "nome": "Apartamento Ipiranga",
+        "imagem": "https://placehold.co/400x300",
+        "preco_noite": 253.78,
+        "cidade": "São José",
+        "estado": "Santa Catarina"
+    },
+    {
+        "id": 11,
+        "nome": "Apartamento Cidade Baixa",
+        "imagem": "https://placehold.co/400x300",
+        "preco_noite": 512.42,
+        "cidade": "Porto Alegre",
+        "estado": "Rio Grande do Sul"
+    },
+    {
+        "id": 12,
+        "nome": "Apartamento Petrópolis",
+        "imagem": "https://placehold.co/400x300",
+        "preco_noite": 385.57,
+        "cidade": "Porto Alegre",
+        "estado": "Rio Grande do Sul"
+    },
+    {
+        "id": 13,
+        "nome": "Apartamento Ingleses",
+        "imagem": "https://placehold.co/400x300",
+        "preco_noite": 633.68,
+        "cidade": "Florianópolis",
+        "estado": "Santa Catarina"
+    },
+    {
+        "id": 14,
+        "nome": "Apartamento Morro das Pedras",
+        "imagem": "https://placehold.co/400x300",
+        "preco_noite": 482.05,
+        "cidade": "Florianópolis",
+        "estado": "Santa Catarina"
+    },
+    {
+        "id": 15,
+        "nome": "Apartamento Juvevê",
+        "imagem": "https://placehold.co/400x300",
+        "preco_noite": 641.75,
+        "cidade": "Curitiba",
+        "estado": "Paraná"
+    },
+    {
+        "id": 16,
+        "nome": "Apartamento Gaivotas",
+        "imagem": "https://placehold.co/400x300",
+        "preco_noite": 664.19,
+        "cidade": "Florianópolis",
+        "estado": "Santa Catarina"
+    },
+    {
+        "id": 17,
+        "nome": "Apartamento Trindade",
+        "imagem": "https://placehold.co/400x300",
+        "preco_noite": 518.42,
+        "cidade": "Florianópolis",
+        "estado": "Santa Catarina"
+    },
+    {
+        "id": 18,
+        "nome": "Apartamento Pantanal",
+        "imagem": "https://placehold.co/400x300",
+        "preco_noite": 540.74,
+        "cidade": "Florianópolis",
+        "estado": "Santa Catarina"
+    },
+    {
+        "id": 19,
+        "nome": "Apartamento Mercês",
+        "imagem": "https://placehold.co/400x300",
+        "preco_noite": 308.16,
+        "cidade": "Curitiba",
+        "estado": "Paraná"
+    },
+    {
+        "id": 20,
+        "nome": "Apartamento Bela Vista",
+        "imagem": "https://placehold.co/400x300",
+        "preco_noite": 435.97,
+        "cidade": "Palhoça",
+        "estado": "Santa Catarina"
     }
 ]
