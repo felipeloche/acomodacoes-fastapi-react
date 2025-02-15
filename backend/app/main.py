@@ -30,7 +30,7 @@ app.add_middleware(
 #Requisição Get para listar todas as acomodações ou filtrar por cidade
 @app.get("/acomodacoes/", response_model=List[Acomodacao]) #Uso do response model para garantir a tipagem de lista para os dados
 async def listar_acomodacoes(cidade: str | None = None):
-    with open("data/acomodacoes.json") as arquivo: 
+    with open("./app/data/acomodacoes.json") as arquivo: 
         dados = json.load(arquivo) #Busca os dados no json da pasta data e os converte para uma lista de dicionários
         
     if cidade: #Se a query for uma cidade
@@ -40,7 +40,7 @@ async def listar_acomodacoes(cidade: str | None = None):
 
 @app.get("/acomodacoes/{id}", response_model=Acomodacao) #Diferente da estrutura de lista acima, dessa vez ele irá olhar para os objetos dentro da lista.
 async def buscar_acomodacao(id: int):
-    with open("data/acomodacoes.json") as arquivo: #Busca os dados no json da pasta data
+    with open("./app/data/acomodacoes.json") as arquivo: #Busca os dados no json da pasta data
         dados = json.load(arquivo)
     for acomodacao in dados:
         if acomodacao["id"] == id: #Valida se o id requisitado é igual ao id do objeto que está sendo olhado no momento, se não for, passa pro próximo
