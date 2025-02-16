@@ -30,7 +30,7 @@ Sistema que integra uma API REST (FastAPI) com frontend React para busca de acom
 
 1. Clone o repositório:
 ```bash
-git clone [URL_DO_SEU_REPOSITORIO]
+git clone https://github.com/felipeloche/acomodacoes-fastapi-react.git
 ```
 2. No diretório do projeto, execute:
 ```bash
@@ -39,6 +39,7 @@ docker-compose up --build
 3. Acesse a aplicação:
 - Frontend: http://localhost:3000
 - Backend: http://localhost:8000/docs (Documentação da API)
+- Backend: http://localhost:8000/acomodacoes (Dados do JSON)
 4. Para parar a aplicação:
 ```bash
 docker-compose down
