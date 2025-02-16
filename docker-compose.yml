@@ -1,0 +1,19 @@
+#Direciona os serviçoes front e backend através dos Dockerfile de cada um
+version: '3.8'
+
+services:
+  backend:
+    build: 
+      context: ./backend
+    ports:
+      - "8000:8000"
+    container_name: acomodacoes-backend
+
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "3000:3000"
+    container_name: acomodacoes-frontend
+    depends_on: # Garante que o backend inicie antes do frontend
+      - backend
